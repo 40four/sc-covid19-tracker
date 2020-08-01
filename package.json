@@ -1,0 +1,24 @@
+{
+  "name": "sc-covid-bot",
+  "version": "0.1.0",
+  "description": "Robot that scrapes Covid-19 data from SCDHEC, creates static markup, and publishes the finished website.",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3",
+    "got": "^11.5.1",
+    "luxon": "^1.24.1",
+    "pino": "^6.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "covid-19",
+    "south",
+    "carolina"
+  ],
+  "author": "Sean Thompson",
+  "license": "MPL-2.0"
+}
