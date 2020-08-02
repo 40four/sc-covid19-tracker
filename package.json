@@ -4,13 +4,16 @@
   "description": "Robot that scrapes Covid-19 data from SCDHEC, creates static markup, and publishes the finished website.",
   "main": "index.js",
   "dependencies": {
+    "@amcharts/amcharts4": "^4.9.34",
     "axios": "^0.19.2",
     "cheerio": "^1.0.0-rc.3",
     "got": "^11.5.1",
     "luxon": "^1.24.1",
     "pino": "^6.4.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
