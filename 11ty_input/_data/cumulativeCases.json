@@ -1,478 +1,478 @@
 [
     {
         "date": "2020-04-06T04:00:00.000Z",
-        "dataPoint": "2,232"
+        "dataPoint": 2232
     },
     {
         "date": "2020-04-07T04:00:00.000Z",
-        "dataPoint": "2,417"
+        "dataPoint": 2417
     },
     {
         "date": "2020-04-08T04:00:00.000Z",
-        "dataPoint": "2,552"
+        "dataPoint": 2552
     },
     {
         "date": "2020-04-09T04:00:00.000Z",
-        "dataPoint": "2,792"
+        "dataPoint": 2792
     },
     {
         "date": "2020-04-10T04:00:00.000Z",
-        "dataPoint": "3,065"
+        "dataPoint": 3065
     },
     {
         "date": "2020-04-11T04:00:00.000Z",
-        "dataPoint": "3,207"
+        "dataPoint": 3207
     },
     {
         "date": "2020-04-12T04:00:00.000Z",
-        "dataPoint": "3,319"
+        "dataPoint": 3319
     },
     {
         "date": "2020-04-13T04:00:00.000Z",
-        "dataPoint": "3,439"
+        "dataPoint": 3439
     },
     {
         "date": "2020-04-14T04:00:00.000Z",
-        "dataPoint": "3,553"
+        "dataPoint": 3553
     },
     {
         "date": "2020-04-15T04:00:00.000Z",
-        "dataPoint": "3,656"
+        "dataPoint": 3656
     },
     {
         "date": "2020-04-16T04:00:00.000Z",
-        "dataPoint": "3,931"
+        "dataPoint": 3931
     },
     {
         "date": "2020-04-17T04:00:00.000Z",
-        "dataPoint": "4,086"
+        "dataPoint": 4086
     },
     {
         "date": "2020-04-18T04:00:00.000Z",
-        "dataPoint": "4,246"
+        "dataPoint": 4246
     },
     {
         "date": "2020-04-19T04:00:00.000Z",
-        "dataPoint": "4,377"
+        "dataPoint": 4377
     },
     {
         "date": "2020-04-20T04:00:00.000Z",
-        "dataPoint": "4,439"
+        "dataPoint": 4439
     },
     {
         "date": "2020-04-21T04:00:00.000Z",
-        "dataPoint": "4,608"
+        "dataPoint": 4608
     },
     {
         "date": "2020-04-22T04:00:00.000Z",
-        "dataPoint": "4,761"
+        "dataPoint": 4761
     },
     {
         "date": "2020-04-23T04:00:00.000Z",
-        "dataPoint": "4,917"
+        "dataPoint": 4917
     },
     {
         "date": "2020-04-24T04:00:00.000Z",
-        "dataPoint": "5,070"
+        "dataPoint": 5070
     },
     {
         "date": "2020-04-25T04:00:00.000Z",
-        "dataPoint": "5,253"
+        "dataPoint": 5253
     },
     {
         "date": "2020-04-26T04:00:00.000Z",
-        "dataPoint": "5,490"
+        "dataPoint": 5490
     },
     {
         "date": "2020-04-27T04:00:00.000Z",
-        "dataPoint": "5,613"
+        "dataPoint": 5613
     },
     {
         "date": "2020-04-28T04:00:00.000Z",
-        "dataPoint": "5,735"
+        "dataPoint": 5735
     },
     {
         "date": "2020-04-29T04:00:00.000Z",
-        "dataPoint": "5,881"
+        "dataPoint": 5881
     },
     {
         "date": "2020-04-30T04:00:00.000Z",
-        "dataPoint": "6,095"
+        "dataPoint": 6095
     },
     {
         "date": "2020-05-01T04:00:00.000Z",
-        "dataPoint": "6,258"
+        "dataPoint": 6258
     },
     {
         "date": "2020-05-02T04:00:00.000Z",
-        "dataPoint": "6,489"
+        "dataPoint": 6489
     },
     {
         "date": "2020-05-03T04:00:00.000Z",
-        "dataPoint": "6,626"
+        "dataPoint": 6626
     },
     {
         "date": "2020-05-04T04:00:00.000Z",
-        "dataPoint": "6,757"
+        "dataPoint": 6757
     },
     {
         "date": "2020-05-05T04:00:00.000Z",
-        "dataPoint": "6,841"
+        "dataPoint": 6841
     },
     {
         "date": "2020-05-06T04:00:00.000Z",
-        "dataPoint": "6,936"
+        "dataPoint": 6936
     },
     {
         "date": "2020-05-07T04:00:00.000Z",
-        "dataPoint": "7,142"
+        "dataPoint": 7142
     },
     {
         "date": "2020-05-08T04:00:00.000Z",
-        "dataPoint": "7,367"
+        "dataPoint": 7367
     },
     {
         "date": "2020-05-09T04:00:00.000Z",
-        "dataPoint": "7,531"
+        "dataPoint": 7531
     },
     {
         "date": "2020-05-10T04:00:00.000Z",
-        "dataPoint": "7,653"
+        "dataPoint": 7653
     },
     {
         "date": "2020-05-11T04:00:00.000Z",
-        "dataPoint": "7,792"
+        "dataPoint": 7792
     },
     {
         "date": "2020-05-12T04:00:00.000Z",
-        "dataPoint": "7,927"
+        "dataPoint": 7927
     },
     {
         "date": "2020-05-13T04:00:00.000Z",
-        "dataPoint": "8,030"
+        "dataPoint": 8030
     },
     {
         "date": "2020-05-14T04:00:00.000Z",
-        "dataPoint": "8,189"
+        "dataPoint": 8189
     },
     {
         "date": "2020-05-15T04:00:00.000Z",
-        "dataPoint": "8,407"
+        "dataPoint": 8407
     },
     {
         "date": "2020-05-16T04:00:00.000Z",
-        "dataPoint": "8,661"
+        "dataPoint": 8661
     },
     {
         "date": "2020-05-17T04:00:00.000Z",
-        "dataPoint": "8,816"
+        "dataPoint": 8816
     },
     {
         "date": "2020-05-18T04:00:00.000Z",
-        "dataPoint": "8,942"
+        "dataPoint": 8942
     },
     {
         "date": "2020-05-19T04:00:00.000Z",
-        "dataPoint": "9,056"
+        "dataPoint": 9056
     },
     {
         "date": "2020-05-20T04:00:00.000Z",
-        "dataPoint": "9,175"
+        "dataPoint": 9175
     },
     {
         "date": "2020-05-21T04:00:00.000Z",
-        "dataPoint": "9,379"
+        "dataPoint": 9379
     },
     {
         "date": "2020-05-22T04:00:00.000Z",
-        "dataPoint": "9,638"
+        "dataPoint": 9638
     },
     {
         "date": "2020-05-23T04:00:00.000Z",
-        "dataPoint": "9,895"
+        "dataPoint": 9895
     },
     {
         "date": "2020-05-24T04:00:00.000Z",
-        "dataPoint": "10,096"
+        "dataPoint": 10096
     },
     {
         "date": "2020-05-25T04:00:00.000Z",
-        "dataPoint": "10,178"
+        "dataPoint": 10178
     },
     {
         "date": "2020-05-26T04:00:00.000Z",
-        "dataPoint": "10,416"
+        "dataPoint": 10416
     },
     {
         "date": "2020-05-27T04:00:00.000Z",
-        "dataPoint": "10,623"
+        "dataPoint": 10623
     },
     {
         "date": "2020-05-28T04:00:00.000Z",
-        "dataPoint": "10,788"
+        "dataPoint": 10788
     },
     {
         "date": "2020-05-29T04:00:00.000Z",
-        "dataPoint": "11,131"
+        "dataPoint": 11131
     },
     {
         "date": "2020-05-30T04:00:00.000Z",
-        "dataPoint": "11,394"
+        "dataPoint": 11394
     },
     {
         "date": "2020-05-31T04:00:00.000Z",
-        "dataPoint": "11,861"
+        "dataPoint": 11861
     },
     {
         "date": "2020-06-01T04:00:00.000Z",
-        "dataPoint": "12,148"
+        "dataPoint": 12148
     },
     {
         "date": "2020-06-02T04:00:00.000Z",
-        "dataPoint": "12,415"
+        "dataPoint": 12415
     },
     {
         "date": "2020-06-03T04:00:00.000Z",
-        "dataPoint": "12,651"
+        "dataPoint": 12651
     },
     {
         "date": "2020-06-04T04:00:00.000Z",
-        "dataPoint": "13,005"
+        "dataPoint": 13005
     },
     {
         "date": "2020-06-05T04:00:00.000Z",
-        "dataPoint": "13,453"
+        "dataPoint": 13453
     },
     {
         "date": "2020-06-06T04:00:00.000Z",
-        "dataPoint": "13,916"
+        "dataPoint": 13916
     },
     {
         "date": "2020-06-07T04:00:00.000Z",
-        "dataPoint": "14,286"
+        "dataPoint": 14286
     },
     {
         "date": "2020-06-08T04:00:00.000Z",
-        "dataPoint": "14,800"
+        "dataPoint": 14800
     },
     {
         "date": "2020-06-09T04:00:00.000Z",
-        "dataPoint": "15,228"
+        "dataPoint": 15228
     },
     {
         "date": "2020-06-10T04:00:00.000Z",
-        "dataPoint": "15,759"
+        "dataPoint": 15759
     },
     {
         "date": "2020-06-11T04:00:00.000Z",
-        "dataPoint": "16,441"
+        "dataPoint": 16441
     },
     {
         "date": "2020-06-12T04:00:00.000Z",
-        "dataPoint": "17,170"
+        "dataPoint": 17170
     },
     {
         "date": "2020-06-13T04:00:00.000Z",
-        "dataPoint": "17,955"
+        "dataPoint": 17955
     },
     {
         "date": "2020-06-14T04:00:00.000Z",
-        "dataPoint": "18,795"
+        "dataPoint": 18795
     },
     {
         "date": "2020-06-15T04:00:00.000Z",
-        "dataPoint": "19,378"
+        "dataPoint": 19378
     },
     {
         "date": "2020-06-16T04:00:00.000Z",
-        "dataPoint": "19,990"
+        "dataPoint": 19990
     },
     {
         "date": "2020-06-17T04:00:00.000Z",
-        "dataPoint": "20,551"
+        "dataPoint": 20551
     },
     {
         "date": "2020-06-18T04:00:00.000Z",
-        "dataPoint": "21,533"
+        "dataPoint": 21533
     },
     {
         "date": "2020-06-19T04:00:00.000Z",
-        "dataPoint": "22,608"
+        "dataPoint": 22608
     },
     {
         "date": "2020-06-20T04:00:00.000Z",
-        "dataPoint": "23,756"
+        "dataPoint": 23756
     },
     {
         "date": "2020-06-21T04:00:00.000Z",
-        "dataPoint": "24,661"
+        "dataPoint": 24661
     },
     {
         "date": "2020-06-22T04:00:00.000Z",
-        "dataPoint": "25,666"
+        "dataPoint": 25666
     },
     {
         "date": "2020-06-23T04:00:00.000Z",
-        "dataPoint": "26,572"
+        "dataPoint": 26572
     },
     {
         "date": "2020-06-24T04:00:00.000Z",
-        "dataPoint": "27,842"
+        "dataPoint": 27842
     },
     {
         "date": "2020-06-25T04:00:00.000Z",
-        "dataPoint": "28,962"
+        "dataPoint": 28962
     },
     {
         "date": "2020-06-26T04:00:00.000Z",
-        "dataPoint": "30,263"
+        "dataPoint": 30263
     },
     {
         "date": "2020-06-27T04:00:00.000Z",
-        "dataPoint": "31,850"
+        "dataPoint": 31850
     },
     {
         "date": "2020-06-28T04:00:00.000Z",
-        "dataPoint": "33,221"
+        "dataPoint": 33221
     },
     {
         "date": "2020-06-29T04:00:00.000Z",
-        "dataPoint": "34,546"
+        "dataPoint": 34546
     },
     {
         "date": "2020-06-30T04:00:00.000Z",
-        "dataPoint": "36,297"
+        "dataPoint": 36297
     },
     {
         "date": "2020-07-01T04:00:00.000Z",
-        "dataPoint": "37,809"
+        "dataPoint": 37809
     },
     {
         "date": "2020-07-02T04:00:00.000Z",
-        "dataPoint": "39,587"
+        "dataPoint": 39587
     },
     {
         "date": "2020-07-03T04:00:00.000Z",
-        "dataPoint": "41,413"
+        "dataPoint": 41413
     },
     {
         "date": "2020-07-04T04:00:00.000Z",
-        "dataPoint": "43,260"
+        "dataPoint": 43260
     },
     {
         "date": "2020-07-05T04:00:00.000Z",
-        "dataPoint": "44,717"
+        "dataPoint": 44717
     },
     {
         "date": "2020-07-06T04:00:00.000Z",
-        "dataPoint": "46,247"
+        "dataPoint": 46247
     },
     {
         "date": "2020-07-07T04:00:00.000Z",
-        "dataPoint": "47,214"
+        "dataPoint": 47214
     },
     {
         "date": "2020-07-08T04:00:00.000Z",
-        "dataPoint": "48,770"
+        "dataPoint": 48770
     },
     {
         "date": "2020-07-09T04:00:00.000Z",
-        "dataPoint": "50,548"
+        "dataPoint": 50548
     },
     {
         "date": "2020-07-10T04:00:00.000Z",
-        "dataPoint": "52,273"
+        "dataPoint": 52273
     },
     {
         "date": "2020-07-11T04:00:00.000Z",
-        "dataPoint": "54,538"
+        "dataPoint": 54538
     },
     {
         "date": "2020-07-12T04:00:00.000Z",
-        "dataPoint": "56,485"
+        "dataPoint": 56485
     },
     {
         "date": "2020-07-13T04:00:00.000Z",
-        "dataPoint": "58,003"
+        "dataPoint": 58003
     },
     {
         "date": "2020-07-14T04:00:00.000Z",
-        "dataPoint": "60,220"
+        "dataPoint": 60220
     },
     {
         "date": "2020-07-15T04:00:00.000Z",
-        "dataPoint": "62,071"
+        "dataPoint": 62071
     },
     {
         "date": "2020-07-16T04:00:00.000Z",
-        "dataPoint": "63,880"
+        "dataPoint": 63880
     },
     {
         "date": "2020-07-17T04:00:00.000Z",
-        "dataPoint": "65,857"
+        "dataPoint": 65857
     },
     {
         "date": "2020-07-18T04:00:00.000Z",
-        "dataPoint": "67,396"
+        "dataPoint": 67396
     },
     {
         "date": "2020-07-19T04:00:00.000Z",
-        "dataPoint": "69,765"
+        "dataPoint": 69765
     },
     {
         "date": "2020-07-20T04:00:00.000Z",
-        "dataPoint": "71,213"
+        "dataPoint": 71213
     },
     {
         "date": "2020-07-21T04:00:00.000Z",
-        "dataPoint": "73,101"
+        "dataPoint": 73101
     },
     {
         "date": "2020-07-22T04:00:00.000Z",
-        "dataPoint": "74,761"
+        "dataPoint": 74761
     },
     {
         "date": "2020-07-23T04:00:00.000Z",
-        "dataPoint": "76,315"
+        "dataPoint": 76315
     },
     {
         "date": "2020-07-24T04:00:00.000Z",
-        "dataPoint": "78,298"
+        "dataPoint": 78298
     },
     {
         "date": "2020-07-25T04:00:00.000Z",
-        "dataPoint": "79,674"
+        "dataPoint": 79674
     },
     {
         "date": "2020-07-26T04:00:00.000Z",
-        "dataPoint": "80,856"
+        "dataPoint": 80856
     },
     {
         "date": "2020-07-27T04:00:00.000Z",
-        "dataPoint": "82,071"
+        "dataPoint": 82071
     },
     {
         "date": "2020-07-28T04:00:00.000Z",
-        "dataPoint": "83,720"
+        "dataPoint": 83720
     },
     {
         "date": "2020-07-29T04:00:00.000Z",
-        "dataPoint": "85,423"
+        "dataPoint": 85423
     },
     {
         "date": "2020-07-30T04:00:00.000Z",
-        "dataPoint": "87,117"
+        "dataPoint": 87117
     },
     {
         "date": "2020-07-31T04:00:00.000Z",
-        "dataPoint": "88,523"
+        "dataPoint": 88523
     },
     {
         "date": "2020-08-01T04:00:00.000Z",
-        "dataPoint": "90,076"
+        "dataPoint": 90076
     },
     {
         "date": "2020-08-02T04:00:00.000Z",
-        "dataPoint": "91,257"
+        "dataPoint": 91257
     }
 ]

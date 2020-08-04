@@ -2,6 +2,8 @@ const fs = require('fs');
 const logger = require('pino')({level: 'info'})
 //const logger = require('pino')({level: 'debug'})
 const { DateTime } = require("luxon");
+//const wordsToNumbers = require("wordsToNumbers");
+var toNumber = require("english2number");
 
 const reportDirPath = 'daily_reports';
 
@@ -56,10 +58,47 @@ exports.parseOneCategory = function(dataDescription, regExCases) {
 			const dt = DateTime.fromFormat(dateString, 'LLLL-d-y');
 			const jsDateObj = dt.toJSDate();
 
+			if (regExRes) {
+				const matchComma = /,/g;
+				const cleaned = regExRes.replace(matchComma, '');
+				var parsed = parseInt(cleaned);
+				logger.info({
+					cleaned: cleaned,
+					parsed: parsed
+
+				}, 'Parsed int');
+			} else {
+				var parsed = null
+				
+			}
+			
+			let forceNumber = null;
+			if (!parsed) {
+				try {
+					forceNumber = toNumber(regExRes);
+				} catch (e) {
+					logger.error({
+						wordToNumber: e
+					}, 'Word to number failed');
+					forceNumber = null;
+				}
+
+			}
+
+
 			const curObj = {
 				'date': jsDateObj,
-				'dataPoint': regExRes
+				'dataPoint': forceNumber ? forceNumber : parsed
 			}
+			logger.info({
+				finalNum: curObj
+
+			}, 'Final parsed obj');
+
+			//const curObj = {
+				//'date': jsDateObj,
+				//'dataPoint': regExRes
+			//}
 			finalArray.push(curObj);
 		}
 
