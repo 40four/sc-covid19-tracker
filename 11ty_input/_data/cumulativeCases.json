@@ -1,516 +1,478 @@
-<!-- Chart code -->
-<script>
-am4core.ready(function() {
-
-// Themes begin
-am4core.useTheme(am4themes_dark);
-am4core.useTheme(am4themes_animated);
-// Themes end
-
-// Create chart instance
-var chart = am4core.create("dailyNewCasesChart", am4charts.XYChart);
-
-let title = chart.titles.create();
-title.text = "Daily New Confirmed Cases";
-title.fontSize = 25;
-title.marginBottom = 15;
-// Add data
-chart.data = [
+[
     {
         "date": "2020-04-06T04:00:00.000Z",
-        "newCases": "183"
+        "dataPoint": "2,232"
     },
     {
         "date": "2020-04-07T04:00:00.000Z",
-        "newCases": "187"
+        "dataPoint": "2,417"
     },
     {
         "date": "2020-04-08T04:00:00.000Z",
-        "newCases": "139"
+        "dataPoint": "2,552"
     },
     {
         "date": "2020-04-09T04:00:00.000Z",
-        "newCases": "241"
+        "dataPoint": "2,792"
     },
     {
         "date": "2020-04-10T04:00:00.000Z",
-        "newCases": "274"
+        "dataPoint": "3,065"
     },
     {
         "date": "2020-04-11T04:00:00.000Z",
-        "newCases": "144"
+        "dataPoint": "3,207"
     },
     {
         "date": "2020-04-12T04:00:00.000Z",
-        "newCases": "113"
+        "dataPoint": "3,319"
     },
     {
         "date": "2020-04-13T04:00:00.000Z",
-        "newCases": "127"
+        "dataPoint": "3,439"
     },
     {
         "date": "2020-04-14T04:00:00.000Z",
-        "newCases": "115"
+        "dataPoint": "3,553"
     },
     {
         "date": "2020-04-15T04:00:00.000Z",
-        "newCases": "105"
+        "dataPoint": "3,656"
     },
     {
         "date": "2020-04-16T04:00:00.000Z",
-        "newCases": "276"
+        "dataPoint": "3,931"
     },
     {
         "date": "2020-04-17T04:00:00.000Z",
-        "newCases": "163"
+        "dataPoint": "4,086"
     },
     {
         "date": "2020-04-18T04:00:00.000Z",
-        "newCases": "165"
+        "dataPoint": "4,246"
     },
     {
         "date": "2020-04-19T04:00:00.000Z",
-        "newCases": "136"
+        "dataPoint": "4,377"
     },
     {
         "date": "2020-04-20T04:00:00.000Z",
-        "newCases": "64"
+        "dataPoint": "4,439"
     },
     {
         "date": "2020-04-21T04:00:00.000Z",
-        "newCases": "172"
+        "dataPoint": "4,608"
     },
     {
         "date": "2020-04-22T04:00:00.000Z",
-        "newCases": "160"
+        "dataPoint": "4,761"
     },
     {
         "date": "2020-04-23T04:00:00.000Z",
-        "newCases": "161"
+        "dataPoint": "4,917"
     },
     {
         "date": "2020-04-24T04:00:00.000Z",
-        "newCases": "168"
+        "dataPoint": "5,070"
     },
     {
         "date": "2020-04-25T04:00:00.000Z",
-        "newCases": "180"
+        "dataPoint": "5,253"
     },
     {
         "date": "2020-04-26T04:00:00.000Z",
-        "newCases": "237"
+        "dataPoint": "5,490"
     },
     {
         "date": "2020-04-27T04:00:00.000Z",
-        "newCases": "142"
+        "dataPoint": "5,613"
     },
     {
         "date": "2020-04-28T04:00:00.000Z",
-        "newCases": "123"
+        "dataPoint": "5,735"
     },
     {
         "date": "2020-04-29T04:00:00.000Z",
-        "newCases": "130"
+        "dataPoint": "5,881"
     },
     {
         "date": "2020-04-30T04:00:00.000Z",
-        "newCases": "220"
+        "dataPoint": "6,095"
     },
     {
         "date": "2020-05-01T04:00:00.000Z",
-        "newCases": "160"
+        "dataPoint": "6,258"
     },
     {
         "date": "2020-05-02T04:00:00.000Z",
-        "newCases": "226"
+        "dataPoint": "6,489"
     },
     {
         "date": "2020-05-03T04:00:00.000Z",
-        "newCases": "141"
+        "dataPoint": "6,626"
     },
     {
         "date": "2020-05-04T04:00:00.000Z",
-        "newCases": "135"
+        "dataPoint": "6,757"
     },
     {
         "date": "2020-05-05T04:00:00.000Z",
-        "newCases": "93"
+        "dataPoint": "6,841"
     },
     {
         "date": "2020-05-06T04:00:00.000Z",
-        "newCases": "97"
+        "dataPoint": "6,936"
     },
     {
         "date": "2020-05-07T04:00:00.000Z",
-        "newCases": "214"
+        "dataPoint": "7,142"
     },
     {
         "date": "2020-05-08T04:00:00.000Z",
-        "newCases": "238"
+        "dataPoint": "7,367"
     },
     {
         "date": "2020-05-09T04:00:00.000Z",
-        "newCases": "168"
+        "dataPoint": "7,531"
     },
     {
         "date": "2020-05-10T04:00:00.000Z",
-        "newCases": "113"
+        "dataPoint": "7,653"
     },
     {
         "date": "2020-05-11T04:00:00.000Z",
-        "newCases": "140"
+        "dataPoint": "7,792"
     },
     {
         "date": "2020-05-12T04:00:00.000Z",
-        "newCases": "147"
+        "dataPoint": "7,927"
     },
     {
         "date": "2020-05-13T04:00:00.000Z",
-        "newCases": "133"
+        "dataPoint": "8,030"
     },
     {
         "date": "2020-05-14T04:00:00.000Z",
-        "newCases": "172"
+        "dataPoint": "8,189"
     },
     {
         "date": "2020-05-15T04:00:00.000Z",
-        "newCases": "232"
+        "dataPoint": "8,407"
     },
     {
         "date": "2020-05-16T04:00:00.000Z",
-        "newCases": "276"
+        "dataPoint": "8,661"
     },
     {
         "date": "2020-05-17T04:00:00.000Z",
-        "newCases": "163"
+        "dataPoint": "8,816"
     },
     {
         "date": "2020-05-18T04:00:00.000Z",
-        "newCases": "126"
+        "dataPoint": "8,942"
     },
     {
         "date": "2020-05-19T04:00:00.000Z",
-        "newCases": "137"
+        "dataPoint": "9,056"
     },
     {
         "date": "2020-05-20T04:00:00.000Z",
-        "newCases": "125"
+        "dataPoint": "9,175"
     },
     {
         "date": "2020-05-21T04:00:00.000Z",
-        "newCases": "199"
+        "dataPoint": "9,379"
     },
     {
         "date": "2020-05-22T04:00:00.000Z",
-        "newCases": "245"
+        "dataPoint": "9,638"
     },
     {
         "date": "2020-05-23T04:00:00.000Z",
-        "newCases": "248"
+        "dataPoint": "9,895"
     },
     {
         "date": "2020-05-24T04:00:00.000Z",
-        "newCases": "209"
+        "dataPoint": "10,096"
     },
     {
         "date": "2020-05-25T04:00:00.000Z",
-        "newCases": "90"
+        "dataPoint": "10,178"
     },
     {
         "date": "2020-05-26T04:00:00.000Z",
-        "newCases": "253"
+        "dataPoint": "10,416"
     },
     {
         "date": "2020-05-27T04:00:00.000Z",
-        "newCases": "207"
+        "dataPoint": "10,623"
     },
     {
         "date": "2020-05-28T04:00:00.000Z",
-        "newCases": "156"
+        "dataPoint": "10,788"
     },
     {
         "date": "2020-05-29T04:00:00.000Z",
-        "newCases": "331"
+        "dataPoint": "11,131"
     },
     {
         "date": "2020-05-30T04:00:00.000Z",
-        "newCases": "266"
+        "dataPoint": "11,394"
     },
     {
         "date": "2020-05-31T04:00:00.000Z",
-        "newCases": "312"
+        "dataPoint": "11,861"
     },
     {
         "date": "2020-06-01T04:00:00.000Z",
-        "newCases": "297"
+        "dataPoint": "12,148"
     },
     {
         "date": "2020-06-02T04:00:00.000Z",
-        "newCases": "285"
+        "dataPoint": "12,415"
     },
     {
         "date": "2020-06-03T04:00:00.000Z",
-        "newCases": "235"
+        "dataPoint": "12,651"
     },
     {
         "date": "2020-06-04T04:00:00.000Z",
-        "newCases": "361"
+        "dataPoint": "13,005"
     },
     {
         "date": "2020-06-05T04:00:00.000Z",
-        "newCases": "447"
+        "dataPoint": "13,453"
     },
     {
         "date": "2020-06-06T04:00:00.000Z",
-        "newCases": "512"
+        "dataPoint": "13,916"
     },
     {
         "date": "2020-06-07T04:00:00.000Z",
-        "newCases": "390"
+        "dataPoint": "14,286"
     },
     {
         "date": "2020-06-08T04:00:00.000Z",
-        "newCases": "542"
+        "dataPoint": "14,800"
     },
     {
         "date": "2020-06-09T04:00:00.000Z",
-        "newCases": "434"
+        "dataPoint": "15,228"
     },
     {
         "date": "2020-06-10T04:00:00.000Z",
-        "newCases": "528"
+        "dataPoint": "15,759"
     },
     {
         "date": "2020-06-11T04:00:00.000Z",
-        "newCases": "687"
+        "dataPoint": "16,441"
     },
     {
         "date": "2020-06-12T04:00:00.000Z",
-        "newCases": "770"
+        "dataPoint": "17,170"
     },
     {
         "date": "2020-06-13T04:00:00.000Z",
-        "newCases": "770"
+        "dataPoint": "17,955"
     },
     {
         "date": "2020-06-14T04:00:00.000Z",
-        "newCases": "799"
+        "dataPoint": "18,795"
     },
     {
         "date": "2020-06-15T04:00:00.000Z",
-        "newCases": "582"
+        "dataPoint": "19,378"
     },
     {
         "date": "2020-06-16T04:00:00.000Z",
-        "newCases": "595"
+        "dataPoint": "19,990"
     },
     {
         "date": "2020-06-17T04:00:00.000Z",
-        "newCases": "577"
+        "dataPoint": "20,551"
     },
     {
         "date": "2020-06-18T04:00:00.000Z",
-        "newCases": "987"
+        "dataPoint": "21,533"
     },
     {
         "date": "2020-06-19T04:00:00.000Z",
-        "newCases": "1,081"
+        "dataPoint": "22,608"
     },
     {
         "date": "2020-06-20T04:00:00.000Z",
-        "newCases": "1,157"
+        "dataPoint": "23,756"
     },
     {
         "date": "2020-06-21T04:00:00.000Z",
-        "newCases": "907"
+        "dataPoint": "24,661"
     },
     {
         "date": "2020-06-22T04:00:00.000Z",
-        "newCases": "1,002"
+        "dataPoint": "25,666"
     },
     {
         "date": "2020-06-23T04:00:00.000Z",
-        "newCases": "890"
+        "dataPoint": "26,572"
     },
     {
         "date": "2020-06-24T04:00:00.000Z",
-        "newCases": "1,291"
+        "dataPoint": "27,842"
     },
     {
         "date": "2020-06-25T04:00:00.000Z",
-        "newCases": "1,106"
+        "dataPoint": "28,962"
     },
     {
         "date": "2020-06-26T04:00:00.000Z",
-        "newCases": "1,273"
+        "dataPoint": "30,263"
     },
     {
         "date": "2020-06-27T04:00:00.000Z",
-        "newCases": "1,599"
+        "dataPoint": "31,850"
     },
     {
         "date": "2020-06-28T04:00:00.000Z",
-        "newCases": "1,366"
+        "dataPoint": "33,221"
     },
     {
         "date": "2020-06-29T04:00:00.000Z",
-        "newCases": "1,320"
+        "dataPoint": "34,546"
     },
     {
         "date": "2020-06-30T04:00:00.000Z",
-        "newCases": "1,741"
+        "dataPoint": "36,297"
     },
     {
         "date": "2020-07-01T04:00:00.000Z",
-        "newCases": "1,497"
+        "dataPoint": "37,809"
     },
     {
         "date": "2020-07-02T04:00:00.000Z",
-        "newCases": "1,629"
+        "dataPoint": "39,587"
     },
     {
         "date": "2020-07-03T04:00:00.000Z",
-        "newCases": "1,558"
+        "dataPoint": "41,413"
     },
     {
         "date": "2020-07-04T04:00:00.000Z",
-        "newCases": "1,836"
+        "dataPoint": "43,260"
     },
     {
         "date": "2020-07-05T04:00:00.000Z",
-        "newCases": "1,463"
+        "dataPoint": "44,717"
     },
     {
         "date": "2020-07-06T04:00:00.000Z",
-        "newCases": "1,505"
+        "dataPoint": "46,247"
     },
     {
         "date": "2020-07-07T04:00:00.000Z",
-        "newCases": "934"
+        "dataPoint": "47,214"
     },
     {
         "date": "2020-07-08T04:00:00.000Z",
-        "newCases": "1,537"
+        "dataPoint": "48,770"
     },
     {
         "date": "2020-07-09T04:00:00.000Z",
-        "newCases": "1,723"
+        "dataPoint": "50,548"
     },
     {
         "date": "2020-07-10T04:00:00.000Z",
-        "newCases": "1,725"
+        "dataPoint": "52,273"
     },
     {
         "date": "2020-07-11T04:00:00.000Z",
-        "newCases": "2,239"
+        "dataPoint": "54,538"
     },
     {
         "date": "2020-07-12T04:00:00.000Z",
-        "newCases": "1,952"
+        "dataPoint": "56,485"
     },
     {
         "date": "2020-07-13T04:00:00.000Z",
-        "newCases": "1,532"
+        "dataPoint": "58,003"
     },
     {
         "date": "2020-07-14T04:00:00.000Z",
-        "newCases": "2,205"
+        "dataPoint": "60,220"
     },
     {
         "date": "2020-07-15T04:00:00.000Z",
-        "newCases": "1,850"
+        "dataPoint": "62,071"
     },
     {
         "date": "2020-07-16T04:00:00.000Z",
-        "newCases": "1,842"
+        "dataPoint": "63,880"
     },
     {
         "date": "2020-07-17T04:00:00.000Z",
-        "newCases": "1,964"
+        "dataPoint": "65,857"
     },
     {
         "date": "2020-07-18T04:00:00.000Z",
-        "newCases": "1,481"
+        "dataPoint": "67,396"
     },
     {
         "date": "2020-07-19T04:00:00.000Z",
-        "newCases": "2,335"
+        "dataPoint": "69,765"
     },
     {
         "date": "2020-07-20T04:00:00.000Z",
-        "newCases": "1,445"
+        "dataPoint": "71,213"
     },
     {
         "date": "2020-07-21T04:00:00.000Z",
-        "newCases": "1,870"
+        "dataPoint": "73,101"
     },
     {
         "date": "2020-07-22T04:00:00.000Z",
-        "newCases": "1,654"
+        "dataPoint": "74,761"
     },
     {
         "date": "2020-07-23T04:00:00.000Z",
-        "newCases": "1,538"
+        "dataPoint": "76,315"
     },
     {
         "date": "2020-07-24T04:00:00.000Z",
-        "newCases": "1,921"
+        "dataPoint": "78,298"
     },
     {
         "date": "2020-07-25T04:00:00.000Z",
-        "newCases": "1,368"
+        "dataPoint": "79,674"
     },
     {
         "date": "2020-07-26T04:00:00.000Z",
-        "newCases": null
+        "dataPoint": "80,856"
     },
     {
         "date": "2020-07-27T04:00:00.000Z",
-        "newCases": "1,226"
+        "dataPoint": "82,071"
     },
     {
         "date": "2020-07-28T04:00:00.000Z",
-        "newCases": "1,573"
+        "dataPoint": "83,720"
     },
     {
         "date": "2020-07-29T04:00:00.000Z",
-        "newCases": "1,666"
+        "dataPoint": "85,423"
     },
     {
         "date": "2020-07-30T04:00:00.000Z",
-        "newCases": "1,636"
+        "dataPoint": "87,117"
     },
     {
         "date": "2020-07-31T04:00:00.000Z",
-        "newCases": "1,346"
+        "dataPoint": "88,523"
+    },
+    {
+        "date": "2020-08-01T04:00:00.000Z",
+        "dataPoint": "90,076"
+    },
+    {
+        "date": "2020-08-02T04:00:00.000Z",
+        "dataPoint": "91,257"
     }
-];
-// Create axes
-var dateAxis = chart.xAxes.push(new am4charts.DateAxis());
-dateAxis.renderer.minGridDistance = 50;
-
-var valueAxis = chart.yAxes.push(new am4charts.ValueAxis());
-
-// Create series
-var series = chart.series.push(new am4charts.LineSeries());
-series.dataFields.valueY = "newCases";
-series.dataFields.dateX = "date";
-series.strokeWidth = 2;
-series.minBulletDistance = 10;
-series.tooltipText = "{valueY}";
-series.tooltip.pointerOrientation = "vertical";
-series.tooltip.background.cornerRadius = 20;
-series.tooltip.background.fillOpacity = 0.5;
-series.tooltip.label.padding(12,12,12,12)
-
-// Add scrollbar
-chart.scrollbarX = new am4charts.XYChartScrollbar();
-chart.scrollbarX.series.push(series);
-
-// Add cursor
-chart.cursor = new am4charts.XYCursor();
-chart.cursor.xAxis = dateAxis;
-chart.cursor.snapToSeries = series;
-
-}); // end am4core.ready()
-</script>
+]
