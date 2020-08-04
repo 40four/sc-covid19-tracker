@@ -84,7 +84,7 @@ const pasrseAllFiles = async () => {
 (async () => {
 	const dataArray = await pasrseAllFiles();
 	const parsed = JSON.stringify(dataArray, null, 4);
-	fs.writeFile(`data/newCases.json`, parsed, (err) => {
+	fs.writeFile(`_data/newCases.json`, parsed, (err) => {
 		if (err) throw err;
 		logger.info(`The new cases file has been saved!`);
 	});
