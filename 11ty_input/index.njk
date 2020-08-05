@@ -5,7 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>South Carolina Covid-19 Charts</title>
 		<!-- Bulma CSS -->
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+		{#<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">#}
 		<!-- amCharts Resources -->
 		<script src="https://cdn.amcharts.com/lib/4/core.js"></script>
 		<script src="https://cdn.amcharts.com/lib/4/charts.js"></script>
@@ -17,28 +17,31 @@
 				background-color: #30303d;
 				color: #fff; 
 			}
-			#cumulativeCasesChart,
-			#dailyNewCasesChart,
-			#dailyDeathsChart {
-				width: 100%;
-				height: 500px;
-				padding-right: 1em;
-			}
-			{#div[id?="Chart"] {#}
+			{##cumulativeCasesChart,#}
+			{##dailyNewCasesChart,#}
+			{##dailyDeathsChart {#}
 				{#width: 100%;#}
 				{#height: 500px;#}
 				{#padding-right: 1em;#}
 			{#}#}
+			[id*="Chart"] {
+				width: 100%;
+				height: 500px;
+				padding-right: 1em;
+			}
 		</style>
 	</head>
 	<body>
 		<div id="dailyNewCasesChart"></div>
 		<div id="cumulativeCasesChart"></div>
 		<div id="dailyDeathsChart"></div>
+		<div id="cumulativeDeathsChart"></div>
+		<div id="dailyTestsCompletedChart"></div>
 	</body>
 		
 	{% include './charts/dailyNewCases.njk' %}
 	{% include './charts/cumulativeCases.njk' %}
 	{% include './charts/dailyDeaths.njk' %}
-	
+	{% include './charts/cumulativeDeaths.njk' %}
+	{% include './charts/dailyTestsCompleted.njk' %}
 </html>

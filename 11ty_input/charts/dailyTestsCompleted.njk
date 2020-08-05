@@ -1,0 +1,13 @@
+{% import "./chartMacro.njk" as chart with context %}
+
+<script>
+
+const dailyTestsCompleted = {{ dailyTestsCompleted | dump | safe }};
+
+</script>
+
+{{ chart.create(
+	'dailyTestsCompletedChart',
+	'Daily Tests Completed',
+	'dailyTestsCompleted'
+) }}
