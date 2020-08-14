@@ -1,0 +1,70 @@
+
+  
+    
+
+
+FOR IMMEDIATE RELEASE:
+August 11, 2020
+
+ 
+
+COLUMBIA, S.C. — Today, the South Carolina Department of Health and Environmental Control (DHEC) unveils a new online dashboard that provides detailed county-level data that helps provide a localized look at the impacts of the novel coronavirus COVID-19 in South Carolina.
+
+This new dashboard was developed by DHEC’s data analysts, GIS specialists and epidemiologists using information gathered through the agency’s expansive disease surveillance capabilities.  
+
+“In what could traditionally take a year or more to develop, our public health and data specialists have built in months an in-depth and interactive online resource for public use that gives a breakdown of demographics, testing, hospitalizations and more for all 46 counties,” said Dr. Joan Duwve, DHEC Public Health Director. “DHEC has been tracking county-specific data since the first cases of COVID-19 were detected in the state, but the agency’s efforts to consolidate this vast, evolving information into an online resource that will be updated daily is truly amazing, and our state is fortunate to have such an adept team of experts working behind the scenes.”    
+
+The dashboard is available by clicking the green “S.C. County-Level COVID-19 Data” button on the main COVID-19 landing page. It will be accessible there for 10 days, after which time it will replace the “Demographics” webpage, as statewide and county-level demographics are both built into this new dashboard. Additional new localized data sets included within it are:
+
+
+	race, ethnicity, gender and age for cases and deaths in each county
+	percent positive for each county
+	number of cases per day for each county, dating back to the beginning of March  
+	number of tests performed for each county (based on an individual’s county of residence)
+	number of types of tests (serology or molecular) performed for each county (based on an individual’s county of residence)
+	rate of testing per 100,000 residents for each county
+
+
+“It’s important to remember that as this localized data changes from day to day, this deadly virus knows no bounds and it doesn’t recognize county or jurisdictional lines,” Duwve said. “Regardless of the number of cases and reported prevalence of the virus within a specific county, we must assume the virus is everywhere and take the same precautions every day in public settings, including wearing a mask, staying socially distanced from others by six feet, avoiding group gatherings and washing our hands frequently.”
+
+The S.C. County-Level COVID-19 Data dashboard includes a users’ guide for helping viewers navigate through the dashboard and understand the data as presented. It will be updated daily and represents information current as of the previous day.
+
+
+
+Latest COVID-19 Update (August 11, 2020)
+
+The South Carolina Department of Health and Environmental Control (DHEC) today announced 928 new confirmed cases and 16 new probable cases of the novel coronavirus COVID-19, 45 additional confirmed deaths and four new probable deaths.
+
+This brings the total number of confirmed cases to 101,360, probable cases to 770, confirmed deaths to 2,012, and 86 probable deaths.
+
+Confirmed and probable cases: please click here.
+Confirmed and probable deaths: please click here.
+
+Testing in South Carolina
+As of yesterday, a total of 853,899 tests have been conducted in the state. See a detailed breakdown of tests in South Carolina on the Data and Projections webpage. DHEC’s Public Health Laboratory is operating extended hours and is testing specimens seven days a week, and the Public Health Laboratory’s current timeframe for providing results to health care providers is 24-48 hours
+
+Percent Positive
+The total number of individual test results reported to DHEC yesterday statewide was 4,648 (not including antibody tests) and the percent positive was 20%.
+
+More Than 135 Mobile Testing Clinics Scheduled Statewide
+As part of our ongoing efforts to increase testing in underserved and rural communities across the state, DHEC is working with community partners to set up mobile testing clinics that bring testing to these communities. Currently, there are 136 mobile testing events scheduled through September 29 with new testing events added regularly. Find a mobile testing clinic event near you at scdhec.gov/covid19mobileclinics.
+
+Residents can visit scdhec.gov/covid19testing for information about getting tested at one of 223 permanent COVID-19 testing facilities across the state.
+
+Hospital Bed Occupancy
+
+
+	Inpatient beds: 2,423 available; 8,089 in use; 76.97% utilization rate; 1,330 inpatient beds occupied by COVID-19 patients (confirmed or suspected)
+	ICU beds: 359 available; 1,098 in use; 75.36% utilization rate; 339 ICU beds occupied by COVID-19 patients (confirmed or suspected)
+	Ventilators: 1,044 available; 524 in use; 207 by COVID-19 patients (confirmed or suspected)
+
+
+For the latest information related to COVID-19 visit scdhec.gov/COVID-19. Visit scdmh.net for stress, anxiety and mental health resources from the S.C. Department of Mental Health.
+
+*As new information is provided to the department, some changes in cases may occur. Cases are reported based on the person’s county of residence, as it is provided to the department. DHEC’s COVID-19 map will adjust to reflect any reclassified cases.
+
+###
+
+ 
+
+  
