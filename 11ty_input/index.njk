@@ -26,24 +26,30 @@
 			{#}#}
 			[id*="Chart"] {
 				width: 100%;
-				height: 500px;
+				height: 700px;
 				padding-right: 1em;
 			}
 		</style>
 	</head>
 	<body>
-		<div id="dailyNewCasesChart"></div>
-		<div id="cumulativeCasesChart"></div>
-		<div id="dailyDeathsChart"></div>
-		<div id="cumulativeDeathsChart"></div>
-		<div id="dailyTestsCompletedChart"></div>
-		<div id="cumulativeTestsCompletedChart"></div>
+		<div id="allConfirmedCasesChart"></div>
+		{#<div id="dailyNewCasesChart"></div>#}
+		{#<div id="cumulativeCasesChart"></div>#}
+		<div id="allDeathsChart"></div>
+		{#<div id="dailyDeathsChart"></div>#}
+		{#<div id="cumulativeDeathsChart"></div>#}
+		<div id="allTestsChart"></div>
+		{#<div id="dailyTestsCompletedChart"></div>#}
+		{#<div id="cumulativeTestsCompletedChart"></div>#}
 	</body>
 		
-	{% include './charts/dailyNewCases.njk' %}
-	{% include './charts/cumulativeCases.njk' %}
-	{% include './charts/dailyDeaths.njk' %}
-	{% include './charts/cumulativeDeaths.njk' %}
-	{% include './charts/dailyTestsCompleted.njk' %}
-	{% include './charts/cumulativeTestsCompleted.njk' %}
+	{% include './charts/casesCombined.njk' %}
+	{#{% include './charts/dailyNewCases.njk' %}#}
+	{#{% include './charts/cumulativeCases.njk' %}#}
+	{% include './charts/deathsCombined.njk' %}
+	{#{% include './charts/dailyDeaths.njk' %}#}
+	{#{% include './charts/cumulativeDeaths.njk' %}#}
+	{% include './charts/testsCombined.njk' %}
+	{#{% include './charts/dailyTestsCompleted.njk' %}#}
+	{#{% include './charts/cumulativeTestsCompleted.njk' %}#}
 </html>

@@ -1,0 +1,19 @@
+{% import "./sharedYAxisChartMacro.njk" as chart with context %}
+
+<script>
+
+{#const newCases = {{ newCases | dump | safe }};#}
+{#const cumulativeCases = {{ cumulativeCases | dump | safe }};#}
+const allConfirmedCases = {{ confirmedCasesMerge | dump | safe }};
+
+</script>
+
+{{ chart.create(
+	'allConfirmedCasesChart',
+	'Confirmed Cases',
+	'allConfirmedCases',
+	'new',
+	'New Cases',
+	'cumulative',
+	'Cumulative Cases'
+) }}

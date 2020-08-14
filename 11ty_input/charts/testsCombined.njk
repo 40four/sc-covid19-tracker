@@ -1,0 +1,17 @@
+{% import "./sharedYAxisChartMacro.njk" as chart with context %}
+
+<script>
+
+const allTests = {{ testMerge | dump | safe }};
+
+</script>
+
+{{ chart.create(
+	'allTestsChart',
+	'Tests Completed',
+	'allTests',
+	'new',
+	'New Tests',
+	'cumulative',
+	'Cumulative Tests'
+) }}

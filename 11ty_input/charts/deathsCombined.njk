@@ -1,0 +1,17 @@
+{% import "./sharedYAxisChartMacro.njk" as chart with context %}
+
+<script>
+
+const allDeaths = {{ deathMerge | dump | safe }};
+
+</script>
+
+{{ chart.create(
+	'allDeathsChart',
+	'Confirmed Deaths',
+	'allDeaths',
+	'new',
+	'New Deaths',
+	'cumulative',
+	'Cumulative Deaths'
+) }}

@@ -1,0 +1,88 @@
+{% macro create(chartId, chartTitle, dataKey, field1, name1, field2, name2) %}
+
+<script>
+
+am4core.ready(function() {
+
+// Themes begin
+am4core.useTheme(am4themes_dark);
+am4core.useTheme(am4themes_animated);
+// Themes end
+
+// Create chart instance
+var chart = am4core.create({{ chartId }}, am4charts.XYChart);
+
+let title = chart.titles.create();
+title.text = "{{ chartTitle }}";
+title.fontSize = 25;
+title.marginBottom = 15;
+// Increase contrast by taking evey second color
+chart.colors.step = 2;
+
+// Add data
+chart.data = {{ dataKey }};
+
+// Create axes
+var dateAxis = chart.xAxes.push(new am4charts.DateAxis());
+dateAxis.renderer.minGridDistance = 50;
+
+
+var valueAxis = chart.yAxes.push(new am4charts.ValueAxis());
+
+var series = chart.series.push(new am4charts.LineSeries());
+series.dataFields.valueY = "{{ field1 }}";
+series.dataFields.dateX = "date";
+series.strokeWidth = 2;
+series.yAxis = valueAxis;
+series.name = "{{ name1 }}";
+series.tooltipText = "{name}: [bold]{valueY}[/]";
+{#series.tensionX = 0.8;#}
+series.showOnInit = true;
+
+var interfaceColors = new am4core.InterfaceColorSet();
+
+valueAxis.renderer.line.strokeOpacity = 1;
+valueAxis.renderer.line.strokeWidth = 2;
+valueAxis.renderer.line.stroke = series.stroke;
+valueAxis.renderer.labels.template.fill = series.stroke;
+valueAxis.renderer.opposite = false;
+
+
+var valueAxis2 = chart.yAxes.push(new am4charts.ValueAxis());
+valueAxis2.syncWithAxis = chart.yAxes.getIndex(0);
+
+var series2 = chart.series.push(new am4charts.LineSeries());
+series2.dataFields.valueY = "{{ field2 }}";
+series2.dataFields.dateX = "date";
+series2.strokeWidth = 2;
+series2.yAxis = valueAxis2;
+series2.name = "{{ name2 }}";
+series2.tooltipText = "{name}: [bold]{valueY}[/]";
+{#series2.tensionX = 0.8;#}
+series2.showOnInit = true;
+
+var interfaceColors2 = new am4core.InterfaceColorSet();
+
+valueAxis2.renderer.line.strokeOpacity = 1;
+valueAxis2.renderer.line.strokeWidth = 2;
+valueAxis2.renderer.line.stroke = series2.stroke;
+valueAxis2.renderer.labels.template.fill = series2.stroke;
+valueAxis2.renderer.opposite = true;
+
+// Add scrollbar
+chart.scrollbarX = new am4charts.XYChartScrollbar();
+chart.scrollbarX.series.push(series);
+chart.scrollbarX.series.push(series2);
+
+// Add legend
+chart.legend = new am4charts.Legend();
+
+// Add cursor
+chart.cursor = new am4charts.XYCursor();
+
+
+}); // end am4core.ready()
+
+</script>
+
+{% endmacro %}

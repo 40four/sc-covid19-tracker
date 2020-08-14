@@ -7,7 +7,7 @@ var toNumber = require("english2number");
 
 const reportDirPath = 'daily_reports';
 
-exports.parseOneCategory = function(dataDescription, regExCases) {
+exports.parseMultipleCategories = function(dataDescription, regExCases) {
 	//Read one data file
 	const readOneFile = async (fileName) => {
 		const reportData = await fs.promises.readFile(`${reportDirPath}/${fileName}`, "utf8");
