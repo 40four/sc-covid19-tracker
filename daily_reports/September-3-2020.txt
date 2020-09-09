@@ -1,0 +1,63 @@
+
+  
+    
+
+
+FOR IMMEDIATE RELEASE:
+September 3, 2020
+
+ 
+
+COLUMBIA, S.C. — Today, the South Carolina Department of Health and Environmental Control (DHEC) is clarifying misunderstanding around newly released data from the U.S. Centers for Disease and Prevention Control (CDC) regarding deaths associated with COVID-19. 
+
+Provisional death data updated by the CDC last week shows that for six percent of COVID-19 deaths, COVID-19 was the only cause of death mentioned. The remaining 94 percent of deaths were among people with other underlying or contributing conditions but COVID-19 was still a factor in the deaths.
+
+Cause of death, as listed on a death certificate, includes an immediate cause, intermediate causes, underlying cause, and contributing conditions. A common example of cause of death involving COVID-19 would have acute respiratory distress syndrome as the immediate cause of death, which is the ultimate condition that caused the death. The intermediate cause of death would have been pneumonia, with COVID-19 as the underlying cause of death. The underlying cause of death is the condition that leads, via intermediate causes, to the immediate cause of death. 
+
+Contributing factors could have been asthma, chronic obstructive pulmonary disease (COPD), diabetes, or any other illness or condition that may have made the condition that was the cause of death worse than it would have been.
+
+
+  
+
+
+
+
+
+In the example above, COVID-19, as the underlying cause of death, is the condition that triggered the cascade of events that eventually lead to death. While certain people such as older adults are more likely to have more contributing factors, if the person doesn’t contract COVID-19, then those factors don’t start the cascade of events that lead to death. Therefore, while COVID-19 infection had a significant role in causing the death in the example, it was not the only cause of death listed. As a result, that death would not count in the six percent from the CDC.
+
+This is not new information. It’s been understood for quite some time that individuals with certain underlying conditions are at greater risk for severe illness and death, which is why DHEC provides underlying health conditions data, also called comorbidity information, for COVID-19-associated deaths on its county-level dashboard, under the “Deaths” data section. 
+
+Learn more about conditions that increase the risk of severe illness on the CDC website here. This updated data from the CDC further emphasizes the risk for people with these underlying health conditions.
+
+Latest COVID-19 Update (September 3, 2020)
+Today, DHEC announced 1,084 new confirmed cases and 29 new probable cases of the novel coronavirus COVID-19, 12 additional confirmed deaths and 1 new probable death.
+
+This brings the total number of confirmed cases to 119,822 probable cases to 1,874, confirmed deaths to 2,667, and 140 probable deaths.
+
+Confirmed and probable cases: please click here.
+Confirmed and probable deaths: please click here.
+
+More Than 480 Testing Opportunities Available Statewide
+Testing for COVID-19 is essential because it helps identify people who are infected with the virus, whether or not they have symptoms, so they can isolate themselves and keep those around them from becoming infected, especially at-risk individuals who can develop life-threatening illness if they contract the virus. Identifying those with COVID-19 who have symptoms helps ensure they receive the medical treatment they need.
+
+DHEC is working with community partners to set up mobile testing clinics and make testing available in communities across the state. Currently, there are 248 mobile testing events scheduled through October 17 and there are 236 permanent COVID-19 testing facilities across the state. Find a testing clinic or event near you at scdhec.gov/covid19testing.
+
+Testing in South Carolina
+As of yesterday, a total of 1,033,762 tests have been conducted in the state. See a detailed breakdown of tests in South Carolina on the Data and Projections webpage. DHEC’s Public Health Laboratory is operating extended hours and is testing specimens seven days a week, and the Public Health Laboratory’s current timeframe for providing results to health care providers is 24-48 hours.
+
+Percent Positive
+The total number of individual test results reported to DHEC yesterday statewide was 6,560 (not including antibody tests) and the percent positive was 16.5%.
+
+Hospital Bed Occupancy
+Hospitals report their information each day to the U.S. Department of Health and Human Services by way of TeleTracking, and that same reporting is also provided to DHEC. Click here to view data from today's TeleTracking report.
+
+COVID-19 Information
+For the latest information related to COVID-19 visit scdhec.gov/COVID-19. Visit scdmh.net for stress, anxiety and mental health resources from the S.C. Department of Mental Health.
+
+*As new information is confirmed or provided to the department, some changes in historical and previously reported data may occur. DHEC’s online COVID-19 resources will adjust to reflect the most current and verified information available at any given time.
+
+###
+
+ 
+
+  
