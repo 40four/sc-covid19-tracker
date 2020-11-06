@@ -2,7 +2,6 @@ const fs = require('fs');
 const logger = require('pino')({level: 'info'})
 //const logger = require('pino')({level: 'debug'})
 const { DateTime } = require("luxon");
-//const wordsToNumbers = require("wordsToNumbers");
 var toNumber = require("english2number");
 
 const reportDirPath = 'daily_reports';
