@@ -4,7 +4,7 @@
   "description": "Robot that scrapes Covid-19 data from SCDHEC, creates static markup, and publishes the finished website.",
   "main": "index.js",
   "dependencies": {
-    "@amcharts/amcharts4": "^4.9.34",
+    "@amcharts/amcharts4": "^4.10.28",
     "cheerio": "^1.0.0-rc.3",
     "english2number": "^1.0.8",
     "got": "^11.5.1",
